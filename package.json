@@ -1,0 +1,15 @@
+{
+  "name": "cifra-polibio",
+  "version": "1.0.0",
+  "description": "Um algoritmo encriptador polibiano",
+  "main": "script.js",
+  "scripts": {
+    "cifra": "node ./script.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artur Fernandes Guimaraes",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

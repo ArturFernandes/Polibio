@@ -1,0 +1,42 @@
+# Criptografia com o cifrão de Polibio
+
+### Este script criptografa ou descriptografa um texto usando o cifrão de Polibio, um método de criptografia de substituição que usa uma tabela de 6x6 para mapear letras para pares de números.
+
+### Para **criptografar**:
+
+```polibio arquivo.txt chave criptografar```
+
+Onde:
+
+`arquivo.txt` é o caminho para o arquivo de texto a ser criptografado.
+`chave` é uma string que será usada para gerar a tabela Polibio.
+
+### Para **descriptografar**:
+
+``polibio arquivo.txt chave descriptografar``
+
+Exemplo:
+
+Considere o seguinte texto:
+
+Olá, mundo!
+
+Se a ``chave`` for "abc", a tabela Polibio será a seguinte:
+
+```
+0 1 2
+a b c
+d e f
+g h i
+j k l
+m n o
+```
+
+
+Após a criptografia, o texto será o seguinte:
+
+``01 02 03 04 05 06``
+
+Após a descriptografia, o texto será devolvido ao original, porém sem caracteres especiais:
+
+ola mundo!
